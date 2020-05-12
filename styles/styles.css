@@ -1,42 +1,37 @@
-/* montserrat-regular - latin */
 @font-face {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   src: local("Montserrat Regular"), local("Montserrat-Regular"),
     url("../fonts/montserrat-v14-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/montserrat-v14-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("../fonts/montserrat-v14-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* montserrat-700 - latin */
+
 @font-face {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   src: local("Montserrat Bold"), local("Montserrat-Bold"),
     url("../fonts/montserrat-v14-latin-700.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/montserrat-v14-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("../fonts/montserrat-v14-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* roboto-slab-regular - latin */
+
 @font-face {
   font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 400;
   src: local(""),
     url("../fonts/roboto-slab-v11-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/roboto-slab-v11-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("../fonts/roboto-slab-v11-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* noto-serif-italic - latin */
+
 @font-face {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: 400;
   src: local("Noto Serif Italic"), local("NotoSerif-Italic"),
     url("../fonts/noto-serif-v8-latin-italic.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("../fonts/noto-serif-v8-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("../fonts/noto-serif-v8-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 li {
   list-style-type: none;
@@ -60,7 +55,7 @@ img {
   width: 940px;
   margin: 0 auto;
 }
-/* header */
+
 .header-container {
   display: flex;
   min-height: 116px;
@@ -88,9 +83,7 @@ img {
   font-weight: normal;
   font-size: 26px;
 }
-/* header/ */
-/* main */
-/* section1 */
+
 .services-section {
   padding-top: 60px;
 }
@@ -168,8 +161,6 @@ img {
   color: rgb(255, 255, 255);
 }
 
-/* section1/ */
-/* section2 */
 .wrapper {
   background-color: rgb(34, 34, 34);
   background-image: url(../images/Background.png);

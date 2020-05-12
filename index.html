@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Golden</title>
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <div class="logo">Golden</div>
+        <ul class="navigation uppercase">
+          <li class="nav-items"><a class="link-nav" href="#">home</a></li>
+          <li class="nav-items"><a class="link-nav" href="#">services</a></li>
+          <li class="nav-items"><a class="link-nav" href="#">portfolio</a></li>
+          <li class="nav-items"><a class="link-nav" href="#">about</a></li>
+          <li class="nav-items"><a class="link-nav" href="#">contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="container services-section">
+        <h2 class="heading uppercase">Services</h2>
+        <p class="headline">Proin iaculis purus consequat sem cure.</p>
+        <ul class="services">
+          <li class="services-item commerce-img">
+            <h3 class="subtitle-services">E-Commerce</h3>
+            <p class="services-description">
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+          <li class="services-item web-img">
+            <h3 class="subtitle-services">Responsive Web</h3>
+            <p class="services-description">
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+          <li class="services-item security-img">
+            <h3 class="subtitle-services">Web Security</h3>
+            <p class="services-description">
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <div class="wrapper">
+        <section class="container contact-section">
+          <h2 class="heading heading-contact uppercase">Contact us</h2>
+          <p class="headline headline-contact">
+            Proin iaculis purus consequat sem cure.
+          </p>
+          <form class="form" action="#">
+            <ul>
+              <li class="list-input">
+                <input
+                name="user_name" required minlength="2"
+                  class="form-elements form-input"
+                  type="text"
+                  placeholder="your name * "
+                />
+              </li>
+              <li class="list-input">
+                <input
+                name="user_email" required
+                  class="form-elements form-input"
+                  type="email"
+                  placeholder="your e-mail *"
+                />
+              </li>
+              <li class="list-input">
+                <input
+                name="userr_subject" 
+                  class="form-elements form-input"
+                  type="text"
+                  placeholder="subject"
+                />
+              </li>
+            </ul>
+            <textarea
+            name="user_massage" required minlength="6" maxlength="360"
+              class="form-elements form-texterea"
+              name=""
+              id=""
+              placeholder="your message *"
+            ></textarea>
+            <button class="form-button uppercase">Send message</button>
+          </form>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

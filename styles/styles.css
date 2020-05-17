@@ -64,6 +64,7 @@ img {
 }
 
 .header-container {
+  padding-top: 40px;
   display: flex;
   min-height: 51%;
   justify-content: space-between;
@@ -81,15 +82,14 @@ img {
   font-size: 14px;
   line-height: 2.929;
 }
-.link-nav:hover,
-.logo:hover {
+.link-nav:hover {
   color: rgb(254, 209, 54);
 }
 .logo {
   font-family: "Wisdom Script Regular";
   font-weight: normal;
   font-size: 26px;
-  color: rgb(34, 34, 34);
+  color: rgb(254, 209, 54);
 }
 
 .services-section {
